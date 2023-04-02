@@ -11,7 +11,7 @@ This utility sets a CSS variable on the document with a correct viewport height 
 
 2. Init the utility.
 
-`new CalculateVH('--variable-name')`
+`const calcVH = new CalculateVH('--variable-name');`
 
 3. Use the variable in your CSS
 
