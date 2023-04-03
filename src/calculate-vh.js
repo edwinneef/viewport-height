@@ -15,7 +15,7 @@ class CalculateVH {
   calculateViewportHeight() {
     const newVH = window.innerHeight * 0.01 + 'px';
     this.vh = newVH;
-    document.documentElement.style.setProperty('--vh', newVH);
+    document.documentElement.style.setProperty(this.variableName, newVH);
   }
 }
 
